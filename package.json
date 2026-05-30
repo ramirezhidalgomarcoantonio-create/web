@@ -1,0 +1,20 @@
+{
+  "name": "participacion-indigena-independencia",
+  "version": "1.0.0",
+  "description": "Sitio educativo sobre la participación indígena en la Independencia de México.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "tunnel": "node scripts/tunnel.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0",
+    "serverless-http": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
